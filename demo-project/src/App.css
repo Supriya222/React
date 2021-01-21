@@ -1,0 +1,114 @@
+
+.heading{
+  background-color:black;
+  padding-top:5px;
+  padding-bottom:3px;
+  font-size:2vw;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height:260px;
+}
+
+div.desc {
+  padding:10px;
+  text-align: left;
+  color:black;
+  background-color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 0.6vw;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main{
+ 
+  margin-top:50px;
+  margin-left:90px;
+  margin-right:90px;  
+}
+.row1{
+  margin-top:0.7vw;
+  margin-left:92px;
+  margin-right:90px;
+  width:88vw; 
+  height:10vw;
+  margin-bottom:0.1vw;
+}
+.i{
+  float:right;
+  margin-right:0.2vw;
+  width:2vw;
+  height:2vw;
+  font-size:1vw;
+  margin-top:0.5vw;
+}
+.App-header{
+  
+  color: white;
+}
+.button{
+  background-color: #008CBA;
+  font-size:1vw;
+  padding:0.5vw 1vw;
+  color:white;
+  border-radius:2vw;
+  margin:auto;
+ }
+.j{
+  text-align:center;
+}
+.fa fa-caret-down{
+  font-size:48px;
+  color:white
+}
+.template{
+  float:right;
+  margin-right:7px;
+  width:4vw;
+  height:3vw;
+  font-size:1vw;
+  padding-top:1vw;
+}
+#id{
+  float:right;
+}
+
+
+ 
+
+
+
+
