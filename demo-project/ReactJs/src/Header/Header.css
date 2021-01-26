@@ -1,0 +1,27 @@
+.Nav_bar{
+    background-color:black;
+    padding-top:5px;
+    padding-bottom:3px;
+    font-size:2vw;
+    color:white;
+  }
+  .icons{
+    float:right;
+    margin-right:0.2vw;
+    width:2vw;
+    height:2vw;
+    font-size:1vw;
+    margin-top:0.5vw;
+  }
+  .Nav_content{
+    float:right;
+    margin-right:7px;
+    width:4vw;
+    height:3vw;
+    font-size:1vw;
+    padding-top:1vw;
+  }
+  .fa fa-caret-down{
+    font-size:48px;
+    color:white
+  }
